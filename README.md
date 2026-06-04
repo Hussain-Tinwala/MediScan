@@ -293,11 +293,6 @@ can work together to create an end-to-end healthcare screening solution.
 * NumPy
 * OpenCV
 
-### Backend
-
-* FastAPI
-* Flask
-
 ### Frontend
 
 * Streamlit
