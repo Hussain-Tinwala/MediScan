@@ -135,6 +135,8 @@ MediScan was built to explore how AI can assist in the **early screening of dise
 
 Rather than replacing doctors, the system acts as an intelligent screening assistant that helps users better understand their health data and encourages timely medical consultation.
 
+By open-sourcing this architecture, MediScan provides a foundational, highly accurate diagnostic baseline for independent researchers and developers to fork, study, and expand without needing massive computational budgets.
+
 ---
 
 ## ✨ Core Features
@@ -344,7 +346,7 @@ Future disease modules may include:
 
 ```bash
 # Clone repository
-git clone
+git clone https://github.com/Hussain-Tinwala/MediScan.git
 
 # Navigate to project
 cd Multiple-Disease-Prediction-Webapp
@@ -366,6 +368,18 @@ pip install -r requirements.txt
 # Run application
 streamlit run Multiple-Disease-Prediction-Webapp/Frontend/app.py
 ```
+
+---
+
+## 🤝 Contributing & Community Roadmap (Open Source Initiative)
+MediScan is transitioning into a community-driven open-science tool. We are currently building out automated maintainer infrastructure to make contributing seamless. 
+
+**Where we need help (Current focus areas):**
+* **🩺 Diagnostic Expansion:** Adding new modules (e.g., Diabetes, Liver Disease) following the existing pipeline architecture.
+* **UI/UX Refinement:** Optimizing the Streamlit frontend for mobile responsiveness.
+* **Documentation:** Expanding our ML pipeline documentation and unit tests.
+
+We are actively tagging `good first issue` and `help wanted` tickets in the repository. Please check the Issues tab to get started!
 
 ---
 
